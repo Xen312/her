@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: auto;
+    background-color: black;
+}
+
+.text-image {
+    width: 600px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 8px; /* The smaller the font size, the more detailed the image will be */
+    line-height: 8px; /* Adjust this for better text spacing */
+    white-space: pre-wrap; /* Prevents the text from collapsing into one line */
+    background: url('imgs/img.jpg') no-repeat center/cover; /* Set the image as a background */
+    background-clip: text;
+    -webkit-background-clip: text; /* Clips the background to the text */
+    color: transparent; /* Makes the text transparent so only the background is visible */
+    text-align: left;;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+}    
