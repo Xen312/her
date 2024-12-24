@@ -14,8 +14,8 @@ body {
     width: 600px;
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 8px; /* The smaller the font size, the more detailed the image will be */
-    line-height: 8px; /* Adjust this for better text spacing */
+    font-size: 6px; /* The smaller the font size, the more detailed the image will be */
+    line-height: 6px; /* Adjust this for better text spacing */
     white-space: pre-wrap; /* Prevents the text from collapsing into one line */
     background: url('imgs/img.jpg') no-repeat center/cover; /* Set the image as a background */
     background-clip: text;
